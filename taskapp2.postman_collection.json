@@ -1,0 +1,22 @@
+{
+	"variables": [],
+	"info": {
+		"name": "taskapp",
+		"_postman_id": "ba0829c0-4f76-603e-7020-95da5a13b257",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "hello",
+			"request": {
+				"url": "http://35.240.213.119:5555/",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		}
+	]
+}
