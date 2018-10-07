@@ -6,7 +6,7 @@ do
     b= php test.php
     sleep 1
     echo "Wait for mySQL ..."
-    echo b
+    echo $b
 done
 echo "MySql Ready"
 
