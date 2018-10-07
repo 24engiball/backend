@@ -7,8 +7,9 @@ function test(){
 function checkMySql() {
 $username = "task";
 $password = "secret";
-    $conn = mysqli_connect(getenv('DB_HOST'), $username, $password,'task');
-    if(!$conn){
+    $conn = new mysqli(getenv('DB_HOST'), $username, $password);
+    if($conn->connect_error){
+        die("Connection failed: " . $conn->connect_error);
         echo "Wait MySQL Connect....";
         sleep(3);
         checkMySql();
@@ -19,6 +20,6 @@ $password = "secret";
     }
 
  }
- test();
-// checkMySql();
+ //test();
+ checkMySql();
 ?>
