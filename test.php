@@ -15,10 +15,10 @@ $password = "secret";
     }else{
         mysqli_close($conn);
 
-       // shell_exec('./test2.sh');
+        shell_exec('./test2.sh');
     }
 
  }
- test();
-// checkMySql();
+// test();
+ checkMySql();
 ?>
