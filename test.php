@@ -10,6 +10,6 @@ do{
 echo "Wait MySQL Connect....";
 sleep(3);
 }
-while(!$conn->ping());
+while($conn->connect_error);
 echo "MySQL Connected!!!";
 ?>
