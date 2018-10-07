@@ -1,6 +1,6 @@
 #!/bin/bash
 a=0
-while [$a -eq 0]
+while [ $a -eq 0 ]
 do
     $a=php test.php
     sleep 1
