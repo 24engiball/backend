@@ -7,9 +7,9 @@ $password = "secret";
     if(!$conn){
         echo "Wait MySQL Connect....";
         sleep(3);
-        mysqli_close($conn);
         checkMySql();
     }else{
+        mysqli_close($conn);
 
        // shell_exec('./test2.sh');
     }
