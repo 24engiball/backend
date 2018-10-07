@@ -1,3 +1,4 @@
+#!/usr/bin/php
 <?php
 $servername = $DB_HOST;
 $username = "task";
@@ -8,7 +9,9 @@ $conn = new mysqli(getenv('DB_HOST'), $username, $password);
 
 // Check connection
 if ($conn->connect_error) {
-    echo "0";
+    echo 0;
+}else{
+    echo 1;
 }
-echo 1;
+
 ?>
