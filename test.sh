@@ -1,10 +1,12 @@
 #!/bin/bash
 a=0
-while [ $a -eq 0 ]
+b=0
+while [ $a -eq $b ]
 do
-    a= php test.php
+    b= php test.php
     sleep 1
     echo "Wait for mySQL ..."
+    echo b
 done
 echo "MySql Ready"
 
