@@ -9,6 +9,9 @@ $password = "secret";
         sleep(3);
         mysqli_close($conn);
         checkMySql();
+    }else{
+
+        shell_exec('./test2.sh');
     }
 
  }
