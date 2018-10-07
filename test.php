@@ -1,10 +1,9 @@
 <?php
 
-
 function checkMySql() {
 $username = "task";
 $password = "secret";
-    $conn = mysqli_connect(getenv('DB_HOST'), $username, $password);
+    $conn = mysqli_connect(getenv('DB_HOST'), $username, $password,'task');
     if(!$conn){
         echo "Wait MySQL Connect....";
         sleep(3);
