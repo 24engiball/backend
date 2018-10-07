@@ -3,4 +3,5 @@ ENV WEBROOT /var/www/html/public
 COPY  . .
 #RUN chmod 755 setup_database.sh
 RUN chmod +x test.sh
+RUN chmod 755 test.sh
 #docker image build -t api .
