@@ -11,7 +11,7 @@ $password = "secret";
         checkMySql();
     }else{
 
-        shell_exec('./test2.sh');
+       // shell_exec('./test2.sh');
     }
 
  }
