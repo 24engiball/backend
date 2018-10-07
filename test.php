@@ -19,6 +19,6 @@ $password = "secret";
     }
 
  }
-// test();
- checkMySql();
+ test();
+// checkMySql();
 ?>
