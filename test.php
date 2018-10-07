@@ -1,5 +1,9 @@
 <?php
-
+function test(){
+    echo "test";
+    sleep(3);
+    test();
+}
 function checkMySql() {
 $username = "task";
 $password = "secret";
@@ -15,6 +19,6 @@ $password = "secret";
     }
 
  }
-
- checkMySql();
+ test();
+// checkMySql();
 ?>
